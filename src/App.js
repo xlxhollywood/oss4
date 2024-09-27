@@ -1,14 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import './Hello.css';
+import Hello from './Hello';  // Hello 컴포넌트 import
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edits <code>src/App.js</code> 22101050 오세훈
-        </p>
+        <Hello />  {/* Hello 컴포넌트 사용 */}
         <a
           className="App-link"
           href="https://reactjs.org"

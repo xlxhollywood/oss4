@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: darkcyan;
+  background-color: #282c34; /* midnightblue에 가까운 색상 */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: blue;
+  color: white;
 }
 
 @keyframes App-logo-spin {
